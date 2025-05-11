@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Para ti...</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Quicksand', sans-serif;
+      background: linear-gradient(to bottom right, #f8c8dc, #ffffff);
+      overflow-x: hidden;
+    }
+
+    .sticker {
+      position: fixed;
+      opacity: 0.2;
+      z-index: 0;
+      width: 80px;
+      height: 80px;
+      pointer-events: none;
+      animation: float 8s ease-in-out infinite;
+    }
+
+    .sticker:nth-child(1) { top: 10%; left: 5%; }
+    .sticker:nth-child(2) { top: 20%; right: 10%; }
+    .sticker:nth-child(3) { bottom: 15%; left: 15%; }
+    .sticker:nth-child(4) { bottom: 10%; right: 5%; }
+    .sticker:nth-child(5) { top: 50%; left: 45%; }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-10px); }
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 60px auto;
+      background-color: rgba(255, 255, 255, 0.9);
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+      position: relative;
+      z-index: 1;
+    }
+
+    h1 {
+      text-align: center;
+      color: #d63384;
+    }
+
+    .letter {
+      white-space: pre-line;
+      line-height: 1.6;
+      color: #444;
+    }
+
+    .music-floating {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #7c3f28;
+      color: #f8d7b4;
+      border-radius: 20px;
+      padding: 15px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      z-index: 1000;
+      max-width: 300px;
+      flex-wrap: wrap;
+    }
+
+    .music-cover {
+      width: 60px;
+      height: 60px;
+      background-color: #f8d7b4;
+      border-radius: 10px;
+      background-size: cover;
+      background-position: center;
+      flex-shrink: 0;
+    }
+
+    .music-controls {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-grow: 1;
+      flex-wrap: wrap;
+    }
+
+    .music-controls button {
+      background: none;
+      border: none;
+      color: #f8d7b4;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    .music-controls audio {
+      width: 100%;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        margin: 20px;
+        padding: 20px;
+      }
+
+      .music-floating {
+        max-width: 90%;
+        bottom: 15px;
+        right: 5%;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Stickers de fondo -->
+  <img class="sticker" src="snoopy.png" alt="Snoopy" />
+  <img class="sticker" src="hello-kitty.png" alt="Hello Kitty" />
+  <img class="sticker" src="pacheco.png" alt="Pacheco" />
+  <img class="sticker" src="my-melody.png" alt="My Melody" />
+  <img class="sticker" src="snoopy.png" alt="Snoopy" />
+
+  <div class="container">
+    <h1>Para ti...</h1>
+    <div class="letter">
+      <!-- Carta completa aquí -->
+      Hola, buenas tardes o noches o cuando lo estés leyendo. Te quería decir unas cosas que en persona, por timidez, no te podría decir. También ya sé que tal vez esto no llegue a nada, que solo haya escrito esto y que no cambie nada, pero me siento más tranquilo sabiendo que sepas lo tanto que puedo expresar lo que siento. A solo irme sin más y dejar esto como algo inconcluso... Bueno, sin más alargar esta parte, aquí inicia la carta. Es la primera que hago.
+
+Estoy enamorado de ti, es algo que se sabe bien. Y si piensas que esto fue algo de ahora, déjame decirte que estás en lo incorrecto. Desde la primera vez que te vi, me flechaste. Era un sentimiento muy raro para ese entonces, es la primera y única vez que lo sentía, algo nuevo, algo raro. Sentía ganas de acercarme y hablar, pero algo me detenía: miedo, timidez. Me decía "fua, alguien como ella nunca estaría con alguien como yo". En el momento que te vi, en ese año, era mi peor año. No tenía confianza en mí mismo, me sentía feo, gordo, cosa por la cual no intenté nada, ni siquiera un hola. Cosa que aún me sigo sintiendo así, la verdad. Aún no tengo esa confianza conmigo mismo, pero trato de mejorar, combatir miedos. Y ahora que me siento con más confiancita, traté algo contigo. Te di una flor. Aunque no me creas, ese día estaba muy nervioso, tenía mucho miedo la verdad, y lo hice aun teniendo todo eso en mente. Luego —es algo que lo acepto— te evité con la mirada, pero fue porque no sabía qué hacer, no sabía qué decir. Como dije, es la primera vez que hago esto, no sé qué procede.
+
+Hablé con muchas personas, pedí consejos, hacía esos consejos y ninguno funcionaba. ¿Por qué no? No sé. Pero si tuviera que responder, es porque ninguno de esos consejos era yo mismo. Hace unos días hablé con un amigo mío, lo conoces, Jordy. Hablé con él, la charla más sincera que he tenido, y él no me dijo qué hacer, no me dio la clave de la vida, pero me dijo algo para crearla. Me dijo: "sé tú mismo". Me quedé pensando: ¿qué significa ser yo mismo? Y para mí es mostrar mi verdadero yo, aceptando las críticas y dando todo de mí. De ahí me salió el coraje de hacer esta carta, para —aunque sepa que esta carta no te hará cambiar de opinión, aunque crea que esto no te hará tener otra imagen de mí— te lo diré igualmente: me gustas.
+
+No uno sin emoción. Uno "me gustas" el cual lo pensé desde que nos vimos, uno que me guardé tanto tiempo y hasta ahora te lo digo. Me enamoré de tu voz sin haberla escuchado, y cuando la escuché, me enamoré más. Me enamoré de tu sonrisa sin haberla visto, y cuando la vi, me enamoré más. Me enamoré de ti.
+
+Me enamoré de ti ese día que te vi por primera vez. Cuando vi el brillo de tus ojos, cuando escuché tu voz y tuve el gusto de escuchar tu risa, me enamoré de ti sin saber quién eras.
+
+Eres la única que permanece en mi mente, por más que trato de olvidarte. Aunque no me veas como pareja, desearía ser otro y no poder tampoco ser un ebrio de amor.
+Si nunca nos hubiéramos conocido y te viera hoy por primera vez, me enamoraría de ti.
+Otra vez, a pesar de todo.
+
+Podré ser feo, alguien no interesante, sin algo que me defina, pero aún así movería cielo y tierra por estar contigo. Trataría de sacarte una risa.
+
+Se podría decir que antes de conocerte, mi vida era aburrida. No sentía ganas de venir al cole o de hacer las cosas, pero desde que te conocí trato de sacar mi mejor versión de toda mi vida.
+Desde que me levanto hasta que me acuesto, eres esa personita que hace que mi corazón se acelere.
+Eres esa persona con la cual quiero compartir mi vida. Suena algo raro o algo rápido estar toda la vida con alguien, suena algo desesperado ahora que lo pienso.
+Pero en esta carta quiero dejar toda mi esencia. Y te digo: si tuviste una experiencia mala en el pasado, algo por lo cual ya no te abres con los demás por miedo a que pase lo de antes, déjame decirte que yo haría lo posible para que no te sientas así.
+Escribí poemas que nunca te dije.
+Yo no quiero algo pasajero, quiero algo verdadero. Tal vez yo busque algo así y tú no, pero no soy adivino, así que aquí te lo digo: que quiero algo verdadero y bonito.
+
+La vida nunca va a ser perfecta, obvio, habrá problemas, inconvenientes. Pero yo no lo trataría... lo haría: atravesar esos problemas solo para estar contigo.
+¿Qué quieres a alguien carismático? Podría serlo.
+¿Qué quieres a alguien con humor? Podría serlo.
+¿Qué quieres a alguien serio? Podría serlo.
+Lo que me pidas que sea, lo podría ser o intentar.
+
+Bueno, le dejo fin a esto. Es mucho, tal vez ni leas hasta aquí o tal vez ni lo leas, o tal vez ni te entregue esto. Pero quiero decirte algo por último antes de finalizar:
+Te quiero desde el alma.
+Y también sé aceptar decisiones.
+Esta carta es para que supieras algo, como mi último intento de hacer que nazca algo.
+Pero creo que será inaudito.
+Si leíste todo esto y aun no crees que podamos ser algo en un futuro, simplemente ignora todo. Haz como si nunca hubiera pasado esto. Imagina que nunca te di esto, como si nunca te hubiera dado la flor.
+Pero si después de leer esto crees que sí podría nacer algo, dame señales. Un “hola” en WhatsApp, saludame o algo, porque apenas yo vea que aceptás, te daría el cielo y más.
+
+Bueno, te dejo. Es mucho texto, como dije, solo es una carta.
+Perdón si te sientes incómoda por algo que dije o algo que agregué. Esta carta está hecha para expresarme.
+Y como dije, si no crees que pase nada en algún futuro, olvida todo, como si nunca nos hubiéramos conocido, por favor.
+Y que no haya incomodidad, sería como lo último que pediría.
+
+Gracias.
+    </div>
+  </div>
+
+  <div class="music-floating">
+    <div class="music-cover" style="background-image: url('portada-musica.jpg');"></div>
+    <div class="music-controls">
+      <button>❤️</button>
+      <button>⏮️</button>
+      <button onclick="document.getElementById('audio').paused ? document.getElementById('audio').play() : document.getElementById('audio').pause()">⏯️</button>
+      <button>⏭️</button>
+      <button>📃</button>
+      <audio id="audio" controls style="display: none;">
+        <source src="alas-rotas.mp3" type="audio/mpeg">
+        Tu navegador no soporta el audio.
+      </audio>
+    </div>
+  </div>
+</body>
+</html>
